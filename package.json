@@ -1,0 +1,18 @@
+{
+  "name": "trueswap-v2-periphery",
+  "version": "0.0.1",
+  "description": "TrueSwap-V2-Periphery",
+  "scripts": {
+    "compile": "source .env && tronbox compile",
+    "deploy:nile": "source .env && tronbox deploy --network nile --reset",
+    "deploy:shasta": "source .env && tronbox deploy --network shasta --reset"
+  },
+  "originalAuthors": "TrueSwap",
+  "license": "MIT",
+  "dependencies": {
+    "@ethersproject/constants": "^5.0.9",
+    "@uniswap/lib": "^4.0.1-alpha",
+    "@uniswap/v2-core": "^1.0.1",
+    "tronweb": "^3.2.3"
+  }
+}
